@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.header {
+	clear: both;
+	height: 150px;
+	width: auto;
+	margin: 10px;
+	padding: 0px;
+	align-content: center;
+	background-color: #ccc;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+
+.flex-container {
+	display: flex;
+	background-color: transparent;
+	margin: 0px;
+	padding: 0;
+	align-content: center;
+	width: 100%;
+	height: auto;
+}
+
+.column {
+	width: 50%;
+	height: 400px;
+	background-color: #ccc;
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 10px;
+	margin: 10px;
+}
+
+/*psuedoclass */
+.column:last-child {
+margin-right:0;
+}
+
+
+.flex-containers {
+	display: flex;
+	background-color: transparent;
+	align-content: center;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0px;
+}
+
+.col {
+	display: flex;
+	background-color: #ccc;
+	flex-wrap: wrap;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 10px;
+	margin: 10px;
+	align-content: center;
+	width: 33.33333%;
+	height: 200px;
+}
+
+.footer {
+	clear: both;
+	height: 150px;
+	width: 100%;
+	margin: 10px;
+	padding: 0px;
+	align-content: center;
+	background-color: #ccc;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+
+body {
+	margin: 10px;
+	padding: 10px;
+	width: auto;
+}
